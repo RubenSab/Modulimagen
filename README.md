@@ -5,6 +5,10 @@ A python module that contains functions which can be mixed and applied in sequen
 ```
 pip install Modulimagen
 ```
+of
+```
+pip install "git+https://github.com/RubenSab/Modulimagen"
+```
 
 ## available tools
  - **wave (width, height, scale, offset, orientation)**

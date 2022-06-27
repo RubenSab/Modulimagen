@@ -27,5 +27,6 @@ pip install "git+https://github.com/RubenSab/Modulimagen"
 Every function listed above returns a numpy 2D array (a matrix), which can be used as an argument of another function or **converted into an image** with something like
 ```python
 from pylab import imsave
+from matplotlib.pyplot import get_cmap
 imsave("new_image.png", image_matrix, origin="lower", cmap=get_cmap("plasma")) 
 ```
